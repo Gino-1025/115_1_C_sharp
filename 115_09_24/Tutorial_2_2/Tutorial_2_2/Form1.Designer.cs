@@ -34,9 +34,9 @@
             // messageButton
             // 
             this.messageButton.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.messageButton.Location = new System.Drawing.Point(213, 217);
+            this.messageButton.Location = new System.Drawing.Point(224, 155);
             this.messageButton.Name = "messageButton";
-            this.messageButton.Size = new System.Drawing.Size(318, 117);
+            this.messageButton.Size = new System.Drawing.Size(298, 160);
             this.messageButton.TabIndex = 0;
             this.messageButton.Text = "顯示訊息";
             this.messageButton.UseVisualStyleBackColor = true;

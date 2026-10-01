@@ -8,3 +8,4 @@ C:\Users\m303\Desktop\115_1_C_sharp\115_09_24\Tutorial_2_2\Tutorial_2_2\obj\Debu
 C:\Users\m303\Desktop\115_1_C_sharp\115_09_24\Tutorial_2_2\Tutorial_2_2\obj\Debug\Tutorial_2_2.csproj.CoreCompileInputs.cache
 C:\Users\m303\Desktop\115_1_C_sharp\115_09_24\Tutorial_2_2\Tutorial_2_2\obj\Debug\Tutorial_2_2.exe
 C:\Users\m303\Desktop\115_1_C_sharp\115_09_24\Tutorial_2_2\Tutorial_2_2\obj\Debug\Tutorial_2_2.pdb
+C:\Users\m303\Desktop\115_1_C_sharp\115_09_24\Tutorial_2_2\Tutorial_2_2\obj\Debug\Tutorial_2_2.exe.config
