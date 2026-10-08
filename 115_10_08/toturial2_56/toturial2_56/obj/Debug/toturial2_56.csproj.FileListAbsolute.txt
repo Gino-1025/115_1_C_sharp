@@ -8,3 +8,4 @@ C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debu
 C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.csproj.CoreCompileInputs.cache
 C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.exe
 C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.pdb
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.exe.config
