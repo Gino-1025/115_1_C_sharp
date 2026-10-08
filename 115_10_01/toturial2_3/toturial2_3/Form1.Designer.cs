@@ -31,6 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.translatrLabel = new System.Windows.Forms.Label();
+            this.ItalyLable = new System.Windows.Forms.Label();
+            this.SpainLable = new System.Windows.Forms.Label();
+            this.GermanyLable = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -61,11 +64,47 @@
             this.translatrLabel.TabIndex = 2;
             this.translatrLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // ItalyLable
+            // 
+            this.ItalyLable.AutoSize = true;
+            this.ItalyLable.Font = new System.Drawing.Font("新細明體", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.ItalyLable.Location = new System.Drawing.Point(42, 266);
+            this.ItalyLable.Name = "ItalyLable";
+            this.ItalyLable.Size = new System.Drawing.Size(205, 60);
+            this.ItalyLable.TabIndex = 3;
+            this.ItalyLable.Text = "義大利";
+            this.ItalyLable.Click += new System.EventHandler(this.ItalyLable_Click);
+            // 
+            // SpainLable
+            // 
+            this.SpainLable.AutoSize = true;
+            this.SpainLable.Font = new System.Drawing.Font("新細明體", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.SpainLable.Location = new System.Drawing.Point(290, 266);
+            this.SpainLable.Name = "SpainLable";
+            this.SpainLable.Size = new System.Drawing.Size(205, 60);
+            this.SpainLable.TabIndex = 4;
+            this.SpainLable.Text = "西班牙";
+            this.SpainLable.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // GermanyLable
+            // 
+            this.GermanyLable.AutoSize = true;
+            this.GermanyLable.Font = new System.Drawing.Font("新細明體", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.GermanyLable.Location = new System.Drawing.Point(564, 266);
+            this.GermanyLable.Name = "GermanyLable";
+            this.GermanyLable.Size = new System.Drawing.Size(145, 60);
+            this.GermanyLable.TabIndex = 5;
+            this.GermanyLable.Text = "德國";
+            this.GermanyLable.Click += new System.EventHandler(this.GermanyLable_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.GermanyLable);
+            this.Controls.Add(this.SpainLable);
+            this.Controls.Add(this.ItalyLable);
             this.Controls.Add(this.translatrLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -81,6 +120,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label translatrLabel;
+        private System.Windows.Forms.Label ItalyLable;
+        private System.Windows.Forms.Label SpainLable;
+        private System.Windows.Forms.Label GermanyLable;
     }
 }
 
