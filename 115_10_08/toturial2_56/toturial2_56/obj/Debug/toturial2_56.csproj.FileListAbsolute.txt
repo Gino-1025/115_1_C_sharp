@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\bin\Debug\toturial2_56.exe.config
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\bin\Debug\toturial2_56.exe
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\bin\Debug\toturial2_56.pdb
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.Form1.resources
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.Properties.Resources.resources
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.exe
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.pdb
+C:\Users\m303\Desktop\115_1_C_sharp\115_10_08\toturial2_56\toturial2_56\obj\Debug\toturial2_56.exe.config

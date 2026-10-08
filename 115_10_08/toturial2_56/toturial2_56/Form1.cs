@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace toturial2_3
+namespace toturial2_56
 {
     public partial class Form1 : Form
     {
@@ -17,19 +17,17 @@ namespace toturial2_3
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void showBackButton_Click(object sender, EventArgs e)
         {
-            translatrLabel.Text = "Buen dia";
+            BackpictureBox.Visible= true;
+            FacepictureBox.Visible = false;
+
         }
 
-        private void ItalyLable_Click(object sender, EventArgs e)
+        private void showFaceButton_Click(object sender, EventArgs e)
         {
-            translatrLabel.Text = "Buongiorno";
-        }
-
-        private void GermanyLable_Click(object sender, EventArgs e)
-        {
-            translatrLabel.Text = "Guten Tag";
+            BackpictureBox.Visible = false;
+            FacepictureBox.Visible = true;
         }
     }
 }
