@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Score_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            // 初始化表單上的所有控制項與介面設定。
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            const double HIGH_SCORE = 9.5; // Constant for the highest score
+
+            double test1, test2, test3, average;
+
+            try
+                {
+                // 從三個文字方塊讀取測驗成績。
+                test1 = double.Parse(test1TextBox.Text);
+                test2 = double.Parse(test2TextBox.Text);
+                test3 = double.Parse(test3TextBox.Text);
+                // 計算三次測驗成績的平均值。
+                average = (test1 + test2 + test3) / 3;
+                // 將平均成績顯示在結果標籤中，並格式化為小數點後兩位。
+                averageLabel.Text = average.ToString("n2");
+                // 檢查平均成績是否達到高分門檻。
+                if (average >= HIGH_SCORE)
+                {
+                MessageBox.Show("恭喜您獲得高分！", "高分通知");
+                }
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("請為所有測驗成績輸入有效的數值。", "輸入錯誤");
+            } catch (OverflowException) {
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // 清除三個文字方塊與平均成績標籤的內容。
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+
+            // 清除後將輸入焦點移回第一次測驗成績欄位。
+            test1TextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // 關閉目前的表單。
+            this.Close();
+        }
+    }
+}
