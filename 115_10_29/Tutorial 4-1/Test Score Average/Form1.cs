@@ -46,7 +46,7 @@ namespace Test_Score_Average
                 }
                 else if (average >= HIGH_SCORE)
                 {
-                    MessageBox.Show("恭喜您獲得高分！", "成績結果");
+                    MessageBox.Show("恭喜您及格！", "成績結果");
                 }
                 else
                 {
